@@ -36,8 +36,3 @@ consumer_secret = os.environ['TWITTER_CONSUMER_SECRET']
 access_token = os.environ['TWITTER_ACCESS_TOKEN']
 access_token_secret = os.environ['TWITTER_ACCESS_TOKEN_SECRET']
 
-# Display values
-print(f'Consumer key is {consumer_key}')
-print(f'Consumer secret is {consumer_secret}')
-print(f'Access token is {access_token}')
-print(f'Access token secret is {access_token_secret}')
